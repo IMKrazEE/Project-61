@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    text-align: center
+}
+
+.profile {
+    width: 150px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#hobby {
+
+    font-family: 'Itim', cursive;
+}
+
+
+.menu {
+
+    list-style: none;
+    font-family: 'Itim', cursive;
+    float: right;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    color: black;
+
+}
+
+.books {
+
+    width: 200px;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.simple-linear {
+    background: linear-gradient(green, yellow);
+}
+
+.link {
+
+    float: left;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family: itim;
+    font-size: 20px;
+    background-color:midnightblue;
+    text-decoration: none;
+    display:inline;
+    color:aliceblue;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.another-linear {
+    background: linear-gradient(blue, green);
+}
+
+.new-linear {
+    background: linear-gradient(blue, red);
+}
+
+.menu {
+    color: ghostwhite;
+    position:fixed;
+
+}
+
+#inspireimg{
+    width:400px;
+    transition: transform .2s;
+    border: 10px solid aqua;
+}
+
+#inspireimg:hover{
+    transform: scale(0.9);
+}
+
+
+
+#inspireclicktext {
+    font-family: 'Itim', cursive;
+    font-size:25px;
+}
+
+.inspire-linear{
+    background: linear-gradient(red, yellow);
+}
+
+.link:hover {
+    font-size:25;
+   background-color: royalblue;
+    color: ghostwhite;
+}
+
+.links{
+    color:ghostwhite;
+    text-decoration:none;
+}
+
+.contact-linear{
+    background: linear-gradient(purple, orange)
+}
